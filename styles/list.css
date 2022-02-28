@@ -5,8 +5,7 @@ body a{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 6em;
-    
+    margin-top: 6em;   
 }
 
 .hotelList img{
@@ -35,10 +34,10 @@ body a{
 }
 
 .info{
-    margin-left: 4%;
-    margin-top: 4%;
-    display: flex;
-    flex-direction: column;
+  margin-left: 4%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -51,7 +50,6 @@ body a{
 #content ul li a{
     text-decoration: none;
     color: black;
-    
 }
 
 .checked{
@@ -70,9 +68,7 @@ body a{
       display: flex;
       width: 80%;
     }
-    #mapView img{
-      width: 90%;
-    }
+  
     #mapView{
       display: flex;
       justify-content: center;
@@ -80,30 +76,37 @@ body a{
   }
   @media only screen and (max-width:576px){
   
-    
-    .card {
-      width: 100%;
-    }
     .viewLink{
       display: flex;
       justify-content: space-around
     }
+
    .info{
      display: flex;
      flex-direction: column;
      font-size: px;
    }
+
     .hotelList {
-      margin: 10% 10%;
       display: flex;
       flex-direction: column;
-     flex-grow: 2;
-      width: 100%;
-      
+      max-height: 100%;
+      max-width: 100%;
+      background-position: center;
+      background-size: cover;
     }
+
+    .hotelList img{
+      max-height: 100%;
+      max-width: 100%;
+      background-position: center;
+      background-size: cover;
+  }
+
     #mapView img{
       width: 90%;
     }
+    
     #mapView{
       display: flex;
       justify-content: center;

@@ -78,15 +78,16 @@ footer{
     }
 
   }
-  @media only screen and (max-width:576px){
-        header{
-            height: 4em;
-        }
+@media only screen and (max-width:576px){
+    header{
+        height: 4em;
+    }
 
-        footer{
-            height: 4em;
-        }
-        .copyright{
-            font-size: 15px;
-        }
+    footer{
+        height: 4em;
+    }
+    .copyright{
+        font-size: 15px;
+        padding: 1em;
+    }
   }

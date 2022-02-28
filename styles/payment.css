@@ -32,11 +32,11 @@
     #aboutHotel{
       width: 90%;
       margin: 5%;
+      margin-top: 20%;
     }
-    #aboutHotel{
-        margin-top: 20%;
+    #detail {
+      padding: 0em 1em;
     }
-    
   }
   @media only screen and (max-width:576px){
     
