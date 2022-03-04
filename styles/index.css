@@ -6,6 +6,7 @@ body a{
   width: 150px;
 }
 
+
 #searchBar {
   background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
   min-height: 380px;
@@ -19,7 +20,7 @@ body a{
 }
 
 #searchBar input {
-  width: 27em;
+  width: 21em;
   padding: 10px;
   border: 1px transparent;
   border-radius: 12px;
@@ -34,7 +35,10 @@ body a{
   place-items: center;
   grid-row-gap: 100px;
   justify-content: space-evenly;
-  padding: 4% 0;
+  padding: 4% 0%;
+}
+#addedCityCards {
+  display: none;
 }
 
 #view {
