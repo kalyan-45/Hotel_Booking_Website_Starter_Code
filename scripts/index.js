@@ -1,4 +1,3 @@
-//This button manage the view more and view less functionality
 
 
 let ViewMoreCity = () => {
