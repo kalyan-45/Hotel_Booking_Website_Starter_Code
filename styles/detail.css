@@ -1,6 +1,7 @@
 
 #wrapper{
     margin-bottom: 10%;
+    display: none;
 }
 #content img{
     display: block;

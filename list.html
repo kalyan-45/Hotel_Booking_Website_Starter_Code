@@ -13,6 +13,7 @@
 		<title>List</title>
         <link rel="stylesheet" href="styles/list.css">
 		<link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/loader.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -20,11 +21,14 @@
 	</head>
 	<body>
         <!-- Wrapper div it contain entire content of the html body -->
-		<div id="wrapper">
-            <!-- Loader div begin -->
-            <div id="loader">
+        <div id="loader-div">
+		    <div id="loader">
                 
-            </div>
+            </div>    
+        </div>
+            <!-- Loader div begin -->
+           
+            <div id="wrapper"></div>
             <!-- Loader div ends -->
             <!-- Header begin -->
 			<header class="header-footer" id="header"></header>
@@ -58,7 +62,7 @@
                     <!-- Map view cintainer begin -->
                     <div class="tab-pane fade" id="pills-map" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <div id="mapView">
-                            
+                           
                         </div>
                     </div>
 
@@ -84,10 +88,10 @@
 		</div>
 
         <!-- Links for JavaScript access -->
-		<script src="scripts/list.js"></script>
+		
 		<script src="scripts/common.js"></script>
+        <script src="scripts/list.js"></script>
         <script async defer
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnU40MhgHrcStMaSCdQrmopWdXfCDgbtE&callback=initMap">
-            </script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_zJzVt4KRcrlIGFJ-6txIleYqwI9t4no"></script>
 	</body>
 </html>

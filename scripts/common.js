@@ -1,3 +1,5 @@
+
+
 //Function for coverting the header and footer into javascript template   
 let displayHeader = () => {
     let headerTemplate = `<a href="index.html"><img src="assests/images/logo.png" alt="logo" class="logo"></a>
@@ -80,6 +82,7 @@ let displayFooter = () => {
 
 displayHeader();
 displayFooter();
+
 //Tenplate Function has ended
 
 //Function's for Login credentials implemtation
@@ -146,3 +149,4 @@ let checkLogin = () => {
 
 checkLogin();
 //Function's for Login credentials implemtation has ended
+

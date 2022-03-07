@@ -1,3 +1,6 @@
+#wrapper{
+  display: none;
+}
 #aboutHotel  img{
     max-height: 400px;
     max-width: 270px;
