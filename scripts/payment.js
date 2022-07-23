@@ -89,6 +89,9 @@ function setCustomerAndPaymentDetails() {
   refToTotalAmount.innerText = `Rs.${total}`;
 }
 
+let reloadPage = () => {
+  
+}
 
 setCustomerAndPaymentDetails();
 getAndSetHotelDetails();

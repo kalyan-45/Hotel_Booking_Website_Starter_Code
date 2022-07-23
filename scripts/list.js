@@ -8,7 +8,7 @@ const travelAdvisorKey = "5353f5c491mshc8fec11dc4a9bb2p1654a9jsn01a9c2d668b1";
 
 let initMap = locations => {
     let center = { lat: parseFloat(locations[0][1]), lng: parseFloat(locations[0][2]) };
-    let map = new google.maps.Map(document.getElementById(' '), {
+    let map = new google.maps.Map(document.getElementById('mapView'), {
         zoom: 10,
         center: center
     });

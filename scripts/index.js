@@ -3,6 +3,14 @@ const API_URL = "https://travel-advisor.p.rapidapi.com/";
 const travelAdvisorHost = "travel-advisor.p.rapidapi.com";
 const travelAdvisorKey = "5353f5c491mshc8fec11dc4a9bb2p1654a9jsn01a9c2d668b1";
 
+
+dispalyContent = () => {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("wrapper").style.display = "block";
+}
+
+dispalyContent();
+
 let ViewMoreCity = () => {
     let viewMoreButton = document.getElementsByClassName('btn btn-secondary')[0];
     if (viewMoreButton.innerText === "View More") {

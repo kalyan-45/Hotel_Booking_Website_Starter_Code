@@ -36,8 +36,9 @@ let fetchHotelPhotosAPI = () => {
                 div.appendChild(image);
                 carouselParentElement.appendChild(div);
             }
-           document.getElementById("loader").style.display = "none";
+            document.getElementById("loader").style.display = "none";
             document.getElementById("wrapper").style.display = "block";
+            
         }
     });
     

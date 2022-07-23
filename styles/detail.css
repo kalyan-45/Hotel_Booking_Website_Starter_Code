@@ -57,6 +57,7 @@
     justify-content: center;
     margin-top: 15px;
   }
+
   #submitButton input{
     padding: 2%;
   }
@@ -65,8 +66,7 @@
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     height: 100px;
-    color: black;
-    
+    color: black; 
   }
   
   
